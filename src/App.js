@@ -8,8 +8,9 @@ import Home from "./Components/Home/Home";
 import PrivateRoute from "./Components/Route/PrivateRoute";
 import AuthProvider from "./Context/AuthProvider";
 import Dashboard from "./Components/Dashboard/Dashboard";
-import Products from "./Components/Products/Products";
 import TourDetails from "./Components/Shared/TourDetails/TourDetails";
+import TourVlogs from "./Components/Home/TourVlogs/TourVlogs";
+import Contact from "./Components/Home/Contact/Contact";
 
 
 function App() {
@@ -21,7 +22,8 @@ function App() {
         <Switch>
           <Route exact path="/"> <Home></Home></Route>
           <Route path="/home"> <Home></Home></Route>
-          <Route path="/products"> <Products></Products> </Route>
+          <Route path="/tours"> <TourVlogs></TourVlogs> </Route>
+          <Route path="/contact"> <Contact></Contact> </Route>
           <Route path="/login"> <Login></Login></Route>
           <Route path="/registration"> <Registration></Registration> </Route>
           <PrivateRoute path="/tourDetails/:id"> <TourDetails></TourDetails> </PrivateRoute>

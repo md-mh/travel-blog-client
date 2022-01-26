@@ -11,7 +11,7 @@ const Mytour = () => {
     const [tours, settours] = useState([]);
     const [mytour, setMytour] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/tour')
+        fetch('https://nameless-lowlands-07279.herokuapp.com/tour')
             .then(res => res.json())
             .then(data => settours(data))
     }, [])
@@ -26,7 +26,7 @@ const Mytour = () => {
     const handleDelete = id => {
         const confirm = window.confirm("Are you wants to delete ?");
         if (confirm) {
-            fetch(`http://localhost:5000/tour/${id}`, {
+            fetch(`https://nameless-lowlands-07279.herokuapp.com/tour/${id}`, {
                 method: "DELETE"
             })
             const remaining = tours.filter(data => data._id !== id);

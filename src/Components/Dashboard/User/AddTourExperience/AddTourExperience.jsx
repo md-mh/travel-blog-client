@@ -11,7 +11,7 @@ const AddTourExperience = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = data => {
 
-        axios.post('http://localhost:5000/tour/', data)
+        axios.post('https://nameless-lowlands-07279.herokuapp.com/tour/', data)
         alert('Add Tour Successfully');
         reset();
     }

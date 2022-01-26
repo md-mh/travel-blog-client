@@ -7,7 +7,7 @@ import './SingleTour.css'
 
 const SingleTour = (props) => {
     // take data using props 
-    const { _id, title, img, price, details } = props.service;
+    const { _id, title, img, location, details } = props.post;
 
     return (
         <Col>
@@ -15,12 +15,12 @@ const SingleTour = (props) => {
             <Card className="card">
                 <Card.Img variant="top" src={img} className="card-img" />
                 <Card.Body>
-                    <Card.Title className="">{title}</Card.Title>
-                    <p><span className="fw-bold">Details:</span> {details.slice(0, 200)}</p>
-                    <Card.Footer className="d-flex justify-content-between align-items-center">
-                        <span><span className="fw-bold">Cost:</span> {price}tk</span>
-                        <Link to={`/tourDetails/${_id}`}> <Button variant="info"> Buy now </Button> </Link>
-                    </Card.Footer>
+                    <h3 className="text-primary">{title}</h3>
+                    <p><span className="fw-bold">Details:</span> {details.slice(0, 200)}...</p>
+                    <div className="d-flex justify-content-between align-items-center">
+                        <p className='text-success '><span className="fw-bold">Location:</span> {location}</p>
+                        <Link to={`/tourDetails/${_id}`}> <Button variant="info"> Read Details </Button> </Link>
+                    </div>
 
                 </Card.Body>
             </Card>

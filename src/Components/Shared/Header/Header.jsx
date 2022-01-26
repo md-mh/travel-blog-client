@@ -29,7 +29,8 @@ const Header = () => {
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
                             <Link className="nav-link" to="/home">Home</Link>
-                            <Link className="nav-link" to="/products">Craft Items</Link>
+                            <Link className="nav-link" to="/tours">Tours Vlog</Link>
+                            <Link className="nav-link" to="/contact">Contact Us</Link>
 
                             {user.email ?
                                 <span className="profilemenu">

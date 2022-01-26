@@ -10,7 +10,7 @@ const Managetour = () => {
     const [oneTour, setOneTour] = useState({});
 
     useEffect(() => {
-        fetch('http://localhost:5000/tour')
+        fetch('https://nameless-lowlands-07279.herokuapp.com/tour')
             .then(res => res.json())
             .then(data => setTours(data))
     }, [])
@@ -19,7 +19,7 @@ const Managetour = () => {
     const handleDelete = id => {
         const confirm = window.confirm("Are you wants to delete ?");
         if (confirm) {
-            fetch(`http://localhost:5000/tour/${id}`, {
+            fetch(`https://nameless-lowlands-07279.herokuapp.com/tour/${id}`, {
                 method: "DELETE"
             })
             const remaining = tours.filter(data => data._id !== id);
@@ -31,7 +31,7 @@ const Managetour = () => {
 
     // Update status 
     const handleUpdateStatus = id => {
-        const url = `http://localhost:5000/tour/${id}`;
+        const url = `https://nameless-lowlands-07279.herokuapp.com/tour/${id}`;
 
         fetch(url)
             .then(res => res.json())

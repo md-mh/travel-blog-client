@@ -10,7 +10,7 @@ const TourDetails = () => {
     const [tourDetails, setTourDetails] = useState([]);
     useEffect(
         () => {
-            fetch(`http://localhost:5000/tour/${id}`)
+            fetch(`https://nameless-lowlands-07279.herokuapp.com/tour/${id}`)
                 .then(res => res.json())
                 .then(data => setTourDetails(data))
         }, [id]);
@@ -19,12 +19,18 @@ const TourDetails = () => {
     return (
 
         <>
-            <Container>
-                <Row className="my-5">
-                    <Col>
-                        <img src={tourDetails.img} alt="Tour Cover" height={'350px'} />
-                    </Col>
+            <Container className="my-5">
+
+                <img src={tourDetails.img} alt="Tour Cover" height={'350px'} />
+                <h2 className='text-primary my-3'>{tourDetails.title}</h2>
+
+                <Row className="my-3">
+                    <Col><h5>Author: {tourDetails.name}</h5></Col>
+                    <Col><h5>Location: {tourDetails.location}</h5></Col>
+                    <Col><h5>Cost: {tourDetails.cost}</h5></Col>
+                    <Col><h5>Category: {tourDetails.category}</h5></Col>
                 </Row>
+                <p>{tourDetails.details}</p>
             </Container>
         </>
     );

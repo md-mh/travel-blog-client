@@ -1,25 +1,365 @@
-{
-  "short_name": "React App",
-  "name": "Create React App Sample",
-  "icons": [
-    {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
-    },
-    {
-      "src": "logo192.png",
-      "type": "image/png",
-      "sizes": "192x192"
-    },
-    {
-      "src": "logo512.png",
-      "type": "image/png",
-      "sizes": "512x512"
-    }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
-}
+[
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Sea Pearl Water Park",
+    "img": "https://i.ibb.co/tHZjhdp/Sea-Pearl-Water-Park.png",
+    "details": "Sea Pearl Water Park adjacent to Inani’s Royal Tulip Resort is Bangladesh’s first water park in the tourist city of Cox’s Bazar. This huge park on 9 acres of land has various names and various types of rides. There are rides called Wind Storm, Multi Land, Kami Qazi or Body Slide, Aqua Loop, Float Slide, Thunder Bowl. Kids’s special favorites are Fun Pool and Rain Dance.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Aalu Tila Guha",
+    "img": "https://i.ibb.co/7knfRp1/Aalu-Tila-Guha.png",
+    "details": "Aalu Tila Guha (Alutila Cave) is a natural cave located in Khagrachari district of Bangladesh. Alutila Guha (cave) is located in the Alutila or Arbari hills at an altitude of 3,000 feet above sea level, 7 km west of the main town in Matiranga upazila of Khagrachari district . The locals call it Matai Hakar or the cave of the gods. This cave is very dark and cool. The small bamboo torch in your hand is the only source of light in the cave.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Himchori",
+    "img": "https://i.ibb.co/3SBzLMs/Himchori.png",
+    "details": "Himchhari is a tourist destination located in Cox’s Bazar district in the Chittagong division of Bangladesh. It is located 12 km from Cox’s Bazar. Himchhari has wide beaches on one side and rows of green hills on the other. There is a waterfall in Himchori which is the main attraction of tourists. However, there is water in the waterfall during the rainy season, there is no water in the other time or it is dry.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Horticulture Park",
+    "img": "https://i.ibb.co/6RTxtnS/Horticulture-Park.png",
+    "details": "Khagrachari Hill District Horticulture Park, a huge land of natural beauty, various varieties, mountains, springs and a combination of greenery. Here Wonderful combination of mountains, rivers and lakes where nature speaks in the language of poetry. At the bank of the river, the wind makes a melody in its own way, and sings a beautiful song of nature.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Going Places VI",
+    "img": "http://traveltalesfromindia.in/wp-content/uploads/2017/09/barcelona-spain.jpg",
+    "details": "I started a series during the Covid times called going places where I started documenting all the 32 countries I have been to, through Instagram Reels. Then travel happened, in small doses but still it happened. And I got caught in it. And a lot of stuff in real life too. But here I am, back with the going places part VI.  You can read the parts I II III IV and V from the respective links",
+    "cost": "2000",
+    "location": "India",
+    "category": "Treavel By Plan"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Bhutan Travel Guide From Dhaka Bangladesh: Everything",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2022/01/Punakha-Bhutan-1000x530.jpg",
+    "details": "Bhutan is the sole country that is carbon-neutral around the globe. The ideal timing to travel to Bhutan is between September and December. Bhutan provides no-cost visas upon arrival when you hold a Bangladeshi passport, which means you won’t have any issues when it comes to obtaining the visa. However, if you intend to travel to By Road, you have got an entry visa for transit from India. If you have four travelers, it’s possible to travel to Punakha and Thimphu comfortably By Road for just 13000-15000 Taka in total. Bhutan has an estimated population of 8 lakhs. Let the citizens of each city know about that everyone. The name of the dress that is traditional in this country is Gho and the dress is worn all the time.",
+    "cost": "15000",
+    "location": "Butan",
+    "category": "Treavel By Plan"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Boga Lake and Keokradong Tour",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2020/11/Boga-Lake-Tour.jpg",
+    "details": "This is a trekking tour!    Will Keokradong win or surrender to its enormity? Sitting on the shores of Boga Lake, the beauty of the mountains, you will see the play of innumerable stars in the sky of pure black darkness? Say goodbye to a sunset and welcome a dawn on from the highest peak of the country.    So let’s see the hilly appearance of Boga Lake and Keokradong.",
+    "cost": "3500",
+    "location": "Chittagong",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Sajek Valley Tour – Enjoy the touch of clouds",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2020/11/sajek_valley_tour-960x530.jpg",
+    "details": "On this day, we will wake up in the morning and go to the helipad to see the sunrise. We will enjoy the best morning of our life. Then we will take pictures and go to the designated Resort for breakfast by 9 o’clock. After breakfast, we will leave for Khagrachhari at 10 o’clock Army Scout. Lunch will be served at the famous System Restaurant. Then we will go to see Risang Jharna, Alutilaguha and Horticulture Park (Hanging Bridge). After dinner, we will take a night bus to Dhaka.    ",
+    "cost": "1800",
+    "location": "Chittagong",
+    "category": "Treavel By Hill's Car"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Of a Starry Starry Night",
+    "img": "https://thebohochica.com/wp-content/uploads/2014/01/img_30291.jpg.webp",
+    "details": "Change is a beautiful phenomenon- at least that’s how I like to think of it. It is alive and constant and this makes it very powerful. When the course of life treads a new path, and if the direction is something that makes us happy, the realization feels just like magic. I’ve always believed that change is possible if we live pro actively and not as passive bystanders in our own lives. This realization dawns upon us in moments that I like to think of as ‘milestones’ that become our defining moments. A life of travel has been my dream for quite sometime now and it’s no surprise that my important ‘milestones’ are (and probably will be) travel related. Like the time I was on a ferry on the River Padha near Amdala village in Bangladesh, on my first solo trip ever to intern with the Grameen Bank. There was nothing particularly spectacular about the moment in the usual sense, but to me it was an extraordinary evening. I stood atop a ferry in silence and watched as the sun slowly descended as if into the river. Around me were my new friends and strangers in an intimate moment of prayer. On their way home from work, they knelt on mats spread out on the deck, offering the evening prayer under the open sky. As a million stars slowly lit up the sky",
+    "cost": "500",
+    "location": "Dhaka",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Travel Like a Pro: Get Your Online Visa for Asia",
+    "img": "https://thebohochica.com/wp-content/uploads/2015/07/1-DSC02048-900x600.jpg.webp",
+    "details": "One of the best things about traveling in our times is that you can now apply for your tourist visas online instead of visiting the embassies of countries around the world, and yes, this is possible even in Asia. Compare this to times when travelers had to queue up at embassies and make a total of at least three trips there to secure a visa on their passport. Now you can do it from the comfort of your home with one click. This is very convenient for travelers who wish to visit Asia and don’t want to deal with the time and bureaucracy associated with applying for a visa at an embassy.",
+    "cost": "130000",
+    "location": "Asia",
+    "category": "Treavel By Plan, Train"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Unearthing Barcelona’s Best Kept Secret in the City of Chocolate",
+    "img": "https://thebohochica.com/wp-content/uploads/2015/05/1-DSC02940-900x600.jpg.webp",
+    "details": "Like everyone, I’d heard about Swiss and Belgian chocolate, often in contest for the best chocolate in the world, but not a thing about Spanish chocolate, that could well be in the running. So when I had the chance to go on the City of Chocolate tour, a walking chocolate tour hosted by Context Travel in Barcelona, I felt both curious and excited about unearthing a lesser-known secret about the city and sampling the best chocolate in Barcelona. Though I’d been on food tours and walking tours of Barcelona, this was a first. After all, to the common food-loving traveler, few things can be as exciting as the prospect of exploring a new culture through its fine chocolate. ",
+    "cost": "12000",
+    "location": "Barcelona",
+    "category": "Treavel By Plan"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Sea Pearl Water Park",
+    "img": "https://i.ibb.co/tHZjhdp/Sea-Pearl-Water-Park.png",
+    "details": "Sea Pearl Water Park adjacent to Inani’s Royal Tulip Resort is Bangladesh’s first water park in the tourist city of Cox’s Bazar. This huge park on 9 acres of land has various names and various types of rides. There are rides called Wind Storm, Multi Land, Kami Qazi or Body Slide, Aqua Loop, Float Slide, Thunder Bowl. Kids’s special favorites are Fun Pool and Rain Dance.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Aalu Tila Guha",
+    "img": "https://i.ibb.co/7knfRp1/Aalu-Tila-Guha.png",
+    "details": "Aalu Tila Guha (Alutila Cave) is a natural cave located in Khagrachari district of Bangladesh. Alutila Guha (cave) is located in the Alutila or Arbari hills at an altitude of 3,000 feet above sea level, 7 km west of the main town in Matiranga upazila of Khagrachari district . The locals call it Matai Hakar or the cave of the gods. This cave is very dark and cool. The small bamboo torch in your hand is the only source of light in the cave.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Himchori",
+    "img": "https://i.ibb.co/3SBzLMs/Himchori.png",
+    "details": "Himchhari is a tourist destination located in Cox’s Bazar district in the Chittagong division of Bangladesh. It is located 12 km from Cox’s Bazar. Himchhari has wide beaches on one side and rows of green hills on the other. There is a waterfall in Himchori which is the main attraction of tourists. However, there is water in the waterfall during the rainy season, there is no water in the other time or it is dry.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Horticulture Park",
+    "img": "https://i.ibb.co/6RTxtnS/Horticulture-Park.png",
+    "details": "Khagrachari Hill District Horticulture Park, a huge land of natural beauty, various varieties, mountains, springs and a combination of greenery. Here Wonderful combination of mountains, rivers and lakes where nature speaks in the language of poetry. At the bank of the river, the wind makes a melody in its own way, and sings a beautiful song of nature.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Going Places VI",
+    "img": "http://traveltalesfromindia.in/wp-content/uploads/2017/09/barcelona-spain.jpg",
+    "details": "I started a series during the Covid times called going places where I started documenting all the 32 countries I have been to, through Instagram Reels. Then travel happened, in small doses but still it happened. And I got caught in it. And a lot of stuff in real life too. But here I am, back with the going places part VI.  You can read the parts I II III IV and V from the respective links",
+    "cost": "2000",
+    "location": "India",
+    "category": "Treavel By Plan"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Bhutan Travel Guide From Dhaka Bangladesh: Everything",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2022/01/Punakha-Bhutan-1000x530.jpg",
+    "details": "Bhutan is the sole country that is carbon-neutral around the globe. The ideal timing to travel to Bhutan is between September and December. Bhutan provides no-cost visas upon arrival when you hold a Bangladeshi passport, which means you won’t have any issues when it comes to obtaining the visa. However, if you intend to travel to By Road, you have got an entry visa for transit from India. If you have four travelers, it’s possible to travel to Punakha and Thimphu comfortably By Road for just 13000-15000 Taka in total. Bhutan has an estimated population of 8 lakhs. Let the citizens of each city know about that everyone. The name of the dress that is traditional in this country is Gho and the dress is worn all the time.",
+    "cost": "15000",
+    "location": "Butan",
+    "category": "Treavel By Plan"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Boga Lake and Keokradong Tour",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2020/11/Boga-Lake-Tour.jpg",
+    "details": "This is a trekking tour!    Will Keokradong win or surrender to its enormity? Sitting on the shores of Boga Lake, the beauty of the mountains, you will see the play of innumerable stars in the sky of pure black darkness? Say goodbye to a sunset and welcome a dawn on from the highest peak of the country.    So let’s see the hilly appearance of Boga Lake and Keokradong.",
+    "cost": "3500",
+    "location": "Chittagong",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Sajek Valley Tour – Enjoy the touch of clouds",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2020/11/sajek_valley_tour-960x530.jpg",
+    "details": "On this day, we will wake up in the morning and go to the helipad to see the sunrise. We will enjoy the best morning of our life. Then we will take pictures and go to the designated Resort for breakfast by 9 o’clock. After breakfast, we will leave for Khagrachhari at 10 o’clock Army Scout. Lunch will be served at the famous System Restaurant. Then we will go to see Risang Jharna, Alutilaguha and Horticulture Park (Hanging Bridge). After dinner, we will take a night bus to Dhaka.    ",
+    "cost": "1800",
+    "location": "Chittagong",
+    "category": "Treavel By Hill's Car"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Of a Starry Starry Night",
+    "img": "https://thebohochica.com/wp-content/uploads/2014/01/img_30291.jpg.webp",
+    "details": "Change is a beautiful phenomenon- at least that’s how I like to think of it. It is alive and constant and this makes it very powerful. When the course of life treads a new path, and if the direction is something that makes us happy, the realization feels just like magic. I’ve always believed that change is possible if we live pro actively and not as passive bystanders in our own lives. This realization dawns upon us in moments that I like to think of as ‘milestones’ that become our defining moments. A life of travel has been my dream for quite sometime now and it’s no surprise that my important ‘milestones’ are (and probably will be) travel related. Like the time I was on a ferry on the River Padha near Amdala village in Bangladesh, on my first solo trip ever to intern with the Grameen Bank. There was nothing particularly spectacular about the moment in the usual sense, but to me it was an extraordinary evening. I stood atop a ferry in silence and watched as the sun slowly descended as if into the river. Around me were my new friends and strangers in an intimate moment of prayer. On their way home from work, they knelt on mats spread out on the deck, offering the evening prayer under the open sky. As a million stars slowly lit up the sky",
+    "cost": "500",
+    "location": "Dhaka",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Travel Like a Pro: Get Your Online Visa for Asia",
+    "img": "https://thebohochica.com/wp-content/uploads/2015/07/1-DSC02048-900x600.jpg.webp",
+    "details": "One of the best things about traveling in our times is that you can now apply for your tourist visas online instead of visiting the embassies of countries around the world, and yes, this is possible even in Asia. Compare this to times when travelers had to queue up at embassies and make a total of at least three trips there to secure a visa on their passport. Now you can do it from the comfort of your home with one click. This is very convenient for travelers who wish to visit Asia and don’t want to deal with the time and bureaucracy associated with applying for a visa at an embassy.",
+    "cost": "130000",
+    "location": "Asia",
+    "category": "Treavel By Plan, Train"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Unearthing Barcelona’s Best Kept Secret in the City of Chocolate",
+    "img": "https://thebohochica.com/wp-content/uploads/2015/05/1-DSC02940-900x600.jpg.webp",
+    "details": "Like everyone, I’d heard about Swiss and Belgian chocolate, often in contest for the best chocolate in the world, but not a thing about Spanish chocolate, that could well be in the running. So when I had the chance to go on the City of Chocolate tour, a walking chocolate tour hosted by Context Travel in Barcelona, I felt both curious and excited about unearthing a lesser-known secret about the city and sampling the best chocolate in Barcelona. Though I’d been on food tours and walking tours of Barcelona, this was a first. After all, to the common food-loving traveler, few things can be as exciting as the prospect of exploring a new culture through its fine chocolate. ",
+    "cost": "12000",
+    "location": "Barcelona",
+    "category": "Treavel By Plan"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Sea Pearl Water Park",
+    "img": "https://i.ibb.co/tHZjhdp/Sea-Pearl-Water-Park.png",
+    "details": "Sea Pearl Water Park adjacent to Inani’s Royal Tulip Resort is Bangladesh’s first water park in the tourist city of Cox’s Bazar. This huge park on 9 acres of land has various names and various types of rides. There are rides called Wind Storm, Multi Land, Kami Qazi or Body Slide, Aqua Loop, Float Slide, Thunder Bowl. Kids’s special favorites are Fun Pool and Rain Dance.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Aalu Tila Guha",
+    "img": "https://i.ibb.co/7knfRp1/Aalu-Tila-Guha.png",
+    "details": "Aalu Tila Guha (Alutila Cave) is a natural cave located in Khagrachari district of Bangladesh. Alutila Guha (cave) is located in the Alutila or Arbari hills at an altitude of 3,000 feet above sea level, 7 km west of the main town in Matiranga upazila of Khagrachari district . The locals call it Matai Hakar or the cave of the gods. This cave is very dark and cool. The small bamboo torch in your hand is the only source of light in the cave.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Himchori",
+    "img": "https://i.ibb.co/3SBzLMs/Himchori.png",
+    "details": "Himchhari is a tourist destination located in Cox’s Bazar district in the Chittagong division of Bangladesh. It is located 12 km from Cox’s Bazar. Himchhari has wide beaches on one side and rows of green hills on the other. There is a waterfall in Himchori which is the main attraction of tourists. However, there is water in the waterfall during the rainy season, there is no water in the other time or it is dry.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Horticulture Park",
+    "img": "https://i.ibb.co/6RTxtnS/Horticulture-Park.png",
+    "details": "Khagrachari Hill District Horticulture Park, a huge land of natural beauty, various varieties, mountains, springs and a combination of greenery. Here Wonderful combination of mountains, rivers and lakes where nature speaks in the language of poetry. At the bank of the river, the wind makes a melody in its own way, and sings a beautiful song of nature.",
+    "cost": "2000",
+    "location": "Cox's Bazar",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Going Places VI",
+    "img": "http://traveltalesfromindia.in/wp-content/uploads/2017/09/barcelona-spain.jpg",
+    "details": "I started a series during the Covid times called going places where I started documenting all the 32 countries I have been to, through Instagram Reels. Then travel happened, in small doses but still it happened. And I got caught in it. And a lot of stuff in real life too. But here I am, back with the going places part VI.  You can read the parts I II III IV and V from the respective links",
+    "cost": "2000",
+    "location": "India",
+    "category": "Treavel By Plan"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Bhutan Travel Guide From Dhaka Bangladesh: Everything",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2022/01/Punakha-Bhutan-1000x530.jpg",
+    "details": "Bhutan is the sole country that is carbon-neutral around the globe. The ideal timing to travel to Bhutan is between September and December. Bhutan provides no-cost visas upon arrival when you hold a Bangladeshi passport, which means you won’t have any issues when it comes to obtaining the visa. However, if you intend to travel to By Road, you have got an entry visa for transit from India. If you have four travelers, it’s possible to travel to Punakha and Thimphu comfortably By Road for just 13000-15000 Taka in total. Bhutan has an estimated population of 8 lakhs. Let the citizens of each city know about that everyone. The name of the dress that is traditional in this country is Gho and the dress is worn all the time.",
+    "cost": "15000",
+    "location": "Butan",
+    "category": "Treavel By Plan"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Boga Lake and Keokradong Tour",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2020/11/Boga-Lake-Tour.jpg",
+    "details": "This is a trekking tour!    Will Keokradong win or surrender to its enormity? Sitting on the shores of Boga Lake, the beauty of the mountains, you will see the play of innumerable stars in the sky of pure black darkness? Say goodbye to a sunset and welcome a dawn on from the highest peak of the country.    So let’s see the hilly appearance of Boga Lake and Keokradong.",
+    "cost": "3500",
+    "location": "Chittagong",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Sajek Valley Tour – Enjoy the touch of clouds",
+    "img": "https://www.travelmate.com.bd/wp-content/uploads/2020/11/sajek_valley_tour-960x530.jpg",
+    "details": "On this day, we will wake up in the morning and go to the helipad to see the sunrise. We will enjoy the best morning of our life. Then we will take pictures and go to the designated Resort for breakfast by 9 o’clock. After breakfast, we will leave for Khagrachhari at 10 o’clock Army Scout. Lunch will be served at the famous System Restaurant. Then we will go to see Risang Jharna, Alutilaguha and Horticulture Park (Hanging Bridge). After dinner, we will take a night bus to Dhaka.    ",
+    "cost": "1800",
+    "location": "Chittagong",
+    "category": "Treavel By Hill's Car"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Of a Starry Starry Night",
+    "img": "https://thebohochica.com/wp-content/uploads/2014/01/img_30291.jpg.webp",
+    "details": "Change is a beautiful phenomenon- at least that’s how I like to think of it. It is alive and constant and this makes it very powerful. When the course of life treads a new path, and if the direction is something that makes us happy, the realization feels just like magic. I’ve always believed that change is possible if we live pro actively and not as passive bystanders in our own lives. This realization dawns upon us in moments that I like to think of as ‘milestones’ that become our defining moments. A life of travel has been my dream for quite sometime now and it’s no surprise that my important ‘milestones’ are (and probably will be) travel related. Like the time I was on a ferry on the River Padha near Amdala village in Bangladesh, on my first solo trip ever to intern with the Grameen Bank. There was nothing particularly spectacular about the moment in the usual sense, but to me it was an extraordinary evening. I stood atop a ferry in silence and watched as the sun slowly descended as if into the river. Around me were my new friends and strangers in an intimate moment of prayer. On their way home from work, they knelt on mats spread out on the deck, offering the evening prayer under the open sky. As a million stars slowly lit up the sky",
+    "cost": "500",
+    "location": "Dhaka",
+    "category": "Treavel By Bus"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Travel Like a Pro: Get Your Online Visa for Asia",
+    "img": "https://thebohochica.com/wp-content/uploads/2015/07/1-DSC02048-900x600.jpg.webp",
+    "details": "One of the best things about traveling in our times is that you can now apply for your tourist visas online instead of visiting the embassies of countries around the world, and yes, this is possible even in Asia. Compare this to times when travelers had to queue up at embassies and make a total of at least three trips there to secure a visa on their passport. Now you can do it from the comfort of your home with one click. This is very convenient for travelers who wish to visit Asia and don’t want to deal with the time and bureaucracy associated with applying for a visa at an embassy.",
+    "cost": "130000",
+    "location": "Asia",
+    "category": "Treavel By Plan, Train"
+  },
+  {
+    "name": "Md. Mahedi",
+    "email": "mmahedi49@gmail.com",
+    "status": "Published",
+    "title": "Unearthing Barcelona’s Best Kept Secret in the City of Chocolate",
+    "img": "https://thebohochica.com/wp-content/uploads/2015/05/1-DSC02940-900x600.jpg.webp",
+    "details": "Like everyone, I’d heard about Swiss and Belgian chocolate, often in contest for the best chocolate in the world, but not a thing about Spanish chocolate, that could well be in the running. So when I had the chance to go on the City of Chocolate tour, a walking chocolate tour hosted by Context Travel in Barcelona, I felt both curious and excited about unearthing a lesser-known secret about the city and sampling the best chocolate in Barcelona. Though I’d been on food tours and walking tours of Barcelona, this was a first. After all, to the common food-loving traveler, few things can be as exciting as the prospect of exploring a new culture through its fine chocolate. ",
+    "cost": "12000",
+    "location": "Barcelona",
+    "category": "Treavel By Plan"
+  }
+]
