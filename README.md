@@ -1,6 +1,6 @@
 # Travel Vlog Site (Client site)
 
-This project Link [Tour Blog](https://tour-blog-mh.web.app/).
+This project Link [Tour Vlog](https://tour-blog-mh.web.app/).
 
 Server Github Link: https://github.com/md-mh/travel-blog-server
 
