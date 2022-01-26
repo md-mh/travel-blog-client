@@ -2,3 +2,6 @@
     font-weight: 600;
     font-size: x-large;
 }
+.page-link:checked{
+    background-color: #ddd;
+}

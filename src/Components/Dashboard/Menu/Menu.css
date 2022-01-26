@@ -2,7 +2,7 @@ button.dashboardCanvas {
     display: none;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 991px) {
     button.dashboardCanvas{
         display: block;
     }

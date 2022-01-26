@@ -24,7 +24,7 @@ const Header = () => {
                         : <span style={{ display: 'none' }}></span>
                     }
 
-                    <Navbar.Brand href="/"><h2>Tour Blog</h2></Navbar.Brand>
+                    <Navbar.Brand href="/"><h2>Tour Vlog</h2></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">

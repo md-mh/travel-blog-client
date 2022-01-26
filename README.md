@@ -1,9 +1,14 @@
-# Getting Started with Create React App
+# Travel Vlog Site (Client site)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project Link [Tour Blog](https://tour-blog-mh.web.app/).
 
-## Available Scripts
+Server Github Link: https://github.com/md-mh/travel-blog-server
 
-In the project directory, you can run:
+## Features
 
-### `npm start`
+- User can read different tour vlog 
+- User can open accout by email and google sign in 
+- User can share there tour exprience
+- Admin can manage tour vlog for approved or delete
+- Admin can make admin 
+

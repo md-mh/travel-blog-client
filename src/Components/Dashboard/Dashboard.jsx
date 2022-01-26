@@ -16,10 +16,10 @@ const Dashboard = () => {
     return (
         <Container className="my-5">
             <Row>
-                <Col md={3}>
+                <Col lg={3}>
                     <Menu></Menu>
                 </Col>
-                <Col md={9}>
+                <Col lg={9}>
 
                     <Switch>
                         <PrivateRoute exact path={`${path}/`}> <Welcome></Welcome> </PrivateRoute>

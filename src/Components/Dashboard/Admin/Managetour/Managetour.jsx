@@ -80,7 +80,7 @@ const Managetour = () => {
                                     <td>{tour.title}</td>
                                     <td>{tour.location}</td>
                                     <td>{tour.category}</td>
-                                    <td> <Link to={`/tourDetails/${tour._id}`}> <Button variant="info"> View </Button> </Link>
+                                    <td> <Link to={`/tourDetails/${tour._id}`} > <Button variant="info"> View </Button> </Link>
                                     </td>
                                     <td> <Button title="Clicked Panding to Shipped" className="btn-warning" onClick={() => handleUpdateStatus(tour._id)}>{tour.status}</Button> </td>
                                     <td><Button className="btn-danger" onClick={() => handleDelete(tour._id)}>Delete</Button></td>

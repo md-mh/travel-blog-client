@@ -26,7 +26,7 @@ function App() {
           <Route path="/contact"> <Contact></Contact> </Route>
           <Route path="/login"> <Login></Login></Route>
           <Route path="/registration"> <Registration></Registration> </Route>
-          <PrivateRoute path="/tourDetails/:id"> <TourDetails></TourDetails> </PrivateRoute>
+          <Route path="/tourDetails/:id"> <TourDetails></TourDetails> </Route>
           <PrivateRoute path="/dashboard"> <Dashboard></Dashboard> </PrivateRoute>
 
 
