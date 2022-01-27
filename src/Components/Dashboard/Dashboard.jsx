@@ -3,6 +3,7 @@ import { Col, Container, Row } from 'react-bootstrap';
 import { Switch, useRouteMatch } from 'react-router';
 import AdminRoute from '../Route/AdminRoute';
 import PrivateRoute from '../Route/PrivateRoute';
+import AdminTourExperience from './Admin/AdminTourExperience/AdminTourExperience';
 import CreateAdmin from './Admin/CreateAdmin/CreateAdmin';
 import Managetour from './Admin/Managetour/Managetour';
 import Menu from './Menu/Menu';
@@ -26,6 +27,7 @@ const Dashboard = () => {
                         <PrivateRoute path={`${path}/addTour`}> <AddTourExperience></AddTourExperience> </PrivateRoute>
                         <PrivateRoute path={`${path}/Mytour`}> <Mytour></Mytour> </PrivateRoute>
 
+                        <AdminRoute path={`${path}/admintour`}> <AdminTourExperience></AdminTourExperience> </AdminRoute>
                         <AdminRoute path={`${path}/Managetour`}> <Managetour></Managetour> </AdminRoute>
                         <AdminRoute path={`${path}/createAdmin`}> <CreateAdmin></CreateAdmin> </AdminRoute>
                     </Switch>

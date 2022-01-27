@@ -51,17 +51,16 @@ const Header = () => {
                     <Offcanvas.Title>DashBoard Menu</Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>
-                    <Link className="nav-link" to={`${url}/addTour`}>Add a Tour Experience </Link>
                     <Link className="nav-link" to={`${url}/Mytour`}>My Tours Vlog</Link>
 
                     {
                         user.email && admin ?
                             <span>
-                                <hr />
+                                <Link className="nav-link" to={`${url}/admintour`}>Admin Tour Experience</Link>
                                 <Link className="nav-link" to={`${url}/Managetour`}>Manage Tour</Link>
                                 <Link className="nav-link" to={`${url}/createAdmin`}>Create an Admin</Link>
                             </span>
-                            : <span style={{ display: 'none' }}></span>
+                            : <Link className="nav-link" to={`${url}/addTour`}>Add a Tour Experience </Link>
                     }
                 </Offcanvas.Body>
             </Offcanvas>
